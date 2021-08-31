@@ -4,11 +4,11 @@ No oficial. Su fin es implementar aprendizajes en Web Development. Contiene info
 Aclaraciones y características:
 1) No estoy afiliada con el Departamento de Biodiversidad y Biología Experimental.
 2) La información de contacto de los Profesores fue provista durante el curso y su utilidad era realizar consultas. Hasta que consiga autorización, los links en "Docentes" (teachers.html) redireccionan a un e-mail de prueba ficticio.
-3) Como el formato de las encuestas de fin de cuatrimestre se altero con La Plaga, proveo una página con links que redireccionan a páginas de la Facultad.
-4) La mayor parte del proyecto aun se esta desarrollando, pero la estructuraa y estilo básico esta disponible.
-5) Intente hacer una paleta de colores accesible. Si reconoces un error, por favor contactame!
+3) Como el formato de las encuestas de fin de cuatrimestre se alteró con La Plaga, proveo una página con links que redireccionan a páginas de la Facultad.
+4) La mayor parte del proyecto aún se está desarrollando, pero la estructura y estilo básico están disponibles.
+5) Intente hacer una paleta de colores accesible. Si reconoces un error ¡por favor contáctame!
 
-¿Tambíen sos un estudiante en Ciudad Universitaria y queres ayudar? ¡Dejamelo saber!
+¿También sos estudiante en Ciudad Universitaria y queres ayudar? ¡Déjamelo saber!
 
 # About this repository
 Unofficial course repository intended for practice in Web Development. It contains some information about the Introduction to Zoology course (University of Buenos Aires, Faculty of Exact and Natural Sciences)
