@@ -1,0 +1,108 @@
+/* Body box style -----------------------------------------------------------*/
+body {
+  display: flex;
+  flex-direction: column;
+  max-height: 95%;
+  margin: 10px;
+  padding: 0px;
+  color: #252525;
+  border: 1px solid #252525;
+  background-color: #252525;
+}
+
+/* Links --------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  color: #333399;
+}
+a:visited {
+  color: #333399;
+}
+
+/* Main Title ---------------------------------------------------------------*/
+header {
+  background-color: #C1FFD9;
+  border: 1px solid rgb(235, 252, 252);
+}
+header h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20pt;
+  margin: 0px;
+  padding: 10px 20px;
+  color: black;
+}
+header h1 a:visited {
+  color: #20272F;
+}
+header p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+/* Main Menu ----------------------------------------------------------------*/
+#main-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: right;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+  margin: 0px 20px;
+  padding: 5px 0px;
+  background-color: #252525;
+}
+#main-menu a {
+  flex-grow: 1;
+  margin: 5px 10px;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 1em;
+  padding: 3px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  color: #333399;
+  background-color: #63F5B3;
+}
+#main-menu a:hover {
+  color:#63F5B3;
+  background-color: #333399;
+}
+
+/* Course Contents article styling ------------------------------------------*/
+article {
+  text-align: justify;
+  margin: 0px;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #252525;
+  background-color: #C1FFD9;
+}
+article h2 {
+  color: black;
+}
+
+/* Footer -------------------------------------------------------------------*/
+footer {
+  margin-top: auto;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  color: #FDF7F4;
+  background-color:#252525;
+}
+footer p a {
+  padding:5px 10px;
+  border-radius: 5px;
+}
+footer p a:visited, footer p a {
+  color: #E2FE4D;
+}
+footer p a:hover {
+  background-color: #333399;
+}

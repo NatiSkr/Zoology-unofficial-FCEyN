@@ -1,0 +1,234 @@
+/* Body box style -----------------------------------------------------------*/
+body {
+  display: flex;
+  flex-direction: column;
+  max-height: 95%;
+  margin: 10px;
+  padding: 0px;
+  color: #252525;
+  border: 1px solid #252525;
+  background-color: #252525;
+}
+
+/* Links --------------------------------------------------------------------*/
+a {
+  text-decoration: none;
+  color: #333399;
+}
+a:visited {
+  color: #333399;
+}
+
+/* Main Title ---------------------------------------------------------------*/
+header {
+  background-color: #C1FFD9;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+}
+header h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20pt;
+  margin: 0px;
+  padding: 10px 20px;
+  color: black;
+}
+header h1 a:visited {
+  color: #252525;
+}
+header p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10pt;
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+/* Main Menu ----------------------------------------------------------------*/
+#main-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: right;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+  margin: 0px 20px;
+  padding: 5px 0px;
+  background-color: #252525;
+}
+#main-menu a {
+  flex-grow: 1;
+  margin: 5px 10px;
+  border: 1px solid #63F5B3;
+  border-radius: 1em;
+  padding: 3px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',s sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  color: #333399;
+  background-color: #63F5B3;
+}
+#main-menu a:hover {
+  color:#63F5B3;
+  background-color: #333399;
+}
+
+/* Forms --------------------------------------------------------------------*/
+label, input, textarea {
+  display: block;
+}
+textarea{
+  background-color: rgb(235, 252, 252, 0.3);
+  border-radius: 10px ;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',s sans-serif;
+  font-size: 11pt;
+}
+input[type=submit] {
+  width: 10%;
+  margin:10px;
+  padding: 10px;
+  background-color: #e2fe4d90;
+}
+
+/* Course Contents list and menu --------------------------------------------*/
+#course-contents {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px ;
+  margin-bottom: 10px;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #252525;
+  background-color: #C1FFD9;
+}
+#course-contents h2 {
+  text-align: center;
+}
+#course-contents ol{
+  margin: 0px;
+  padding: 0px;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-around;
+}
+#course-contents a{
+  flex-grow: 1;
+  flex-basis: 40%;
+  margin: 10px;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 1em;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12pt;
+  color: #1a4157;
+  background-color: #63F5B3;
+}
+#course-contents a:hover {
+  color: #63F5B3;
+  background-color: #1a4157;
+}
+
+/* Course Aim list ----------------------------------------------------------*/
+#course-aim {
+  margin: 0px ;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  background-color: #C1FFD9;
+}
+#course-aim h2 {
+  color: black;
+}
+#course-aim li{
+  padding-top: 5px;
+}
+
+/* Course Teachers list -----------------------------------------------------*/
+#teachers {
+  margin: 0px ;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #252525;
+  background-color: #C1FFD9;
+}
+#teachers h2 {
+  color: black;
+}
+#teachers ul {
+  list-style: none;
+}
+#teachers li {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+/* Books list ---------------------------------------------------------------*/
+#book-list {
+  margin: 0px ;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #252525;
+  background-color: #C1FFD9;
+}
+#teachers h2 {
+  color: black;
+}
+#teachers li {
+  padding-top: 5px;
+}
+#teachers li a {
+  vertical-align: middle;
+}
+
+/* Survey results ------------------------------------------------------------*/
+#survey-results, #report-error {
+  margin: 0px ;
+  border: 1px solid rgb(235, 252, 252);
+  border-radius: 0.5em;
+  padding: 10px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #252525;
+  background-color: #C1FFD9;
+}
+#survey-results h2 {
+  color: black;
+}
+#survey-results a {
+  vertical-align: middle;
+}
+
+/* Footer -------------------------------------------------------------------*/
+footer {
+  margin-top: auto;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  color: #FDF7F4;
+  background-color:#252525;
+}
+footer p a {
+  padding:5px 10px;
+  border-radius: 5px;
+}
+footer p a:visited, footer p a {
+  color: #E2FE4D;
+}
+footer p a:hover {
+  background-color: #333399;
+}
