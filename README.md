@@ -1,4 +1,4 @@
-# Zoology-unofficial-FCEyN
+# About this repository
 Unofficial course repository intended for practice in Web Development. It contains some information about the Introduction to Zoology course (University of Buenos Aires, Faculty of Exact and Natural Sciences)
 
 Disclaimers and features
